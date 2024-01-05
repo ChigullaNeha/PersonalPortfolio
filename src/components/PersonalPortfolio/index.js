@@ -217,7 +217,7 @@ class About extends Component {
               {projectsList.map(eachProject => (
                 <div className="new-project">
                   <h1 className="projects-heading">
-                    Project Name:{eachProject.projectName}
+                    {eachProject.projectName}
                   </h1>
                   <p>{eachProject.projectDescription}</p>
                   <a href={eachProject.projectLink}>
